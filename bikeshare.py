@@ -32,7 +32,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input('what month have you chose?').lower()
+        month = input('insert the month that you chose').lower()
         if month in MONTHS:
             break
 
